@@ -10,23 +10,24 @@
 .calculator {
   padding: 20px;
   border-radius: 10px;
-  background-color: white;
+  background: black;
 }
 form input {
-  border: none;
+  border: 2px solid white;
   outline: 0;
   width: 60px;
   height: 60px;
   font-size: 16px;
-  background-color: rgb(91, 91, 151);
+  background:rgb(14, 183, 216);
   margin: 2px;
   border-radius: 10px;
-  color: white;
+  color: rgb(237, 232, 232);
   font-weight: bolder;
   cursor: pointer;
 }
 form input[type="button"]:hover {
-  background-color: rgb(137, 22, 245);
+  background-image: url('./assets/mbape.jpg');
+  background-size: 100px;
 }
 form .display {
   display: flex;
@@ -38,7 +39,7 @@ form .display input {
   flex: 1;
   font-size: 40px;
   padding: 5px 10px;
-  background-color: rgb(64, 64, 64);
+  background-color: rgb(107, 104, 104);
 }
 form input.equal {
   width: 123px;
