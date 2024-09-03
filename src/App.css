@@ -26,8 +26,8 @@ form input {
   cursor: pointer;
 }
 form input[type="button"]:hover {
-  background-image: url('./assets/mbape.jpg');
-  background-size: 100px;
+  background:purple;
+ 
 }
 form .display {
   display: flex;
